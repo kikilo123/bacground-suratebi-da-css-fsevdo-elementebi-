@@ -1,0 +1,64 @@
+ body{
+    height: 2000px;
+ }
+ section {
+    background-color: red;
+    width: 800px;
+    
+ }
+section > img {
+    width: 400px;
+    height: 400px;
+    object-fit:contain ;
+
+}
+
+.img {
+    background-image: url( ../images/swavla.png) ;
+    background-repeat:repeat;
+    background-size: cover;
+    background-position:center;
+    height: 300px;
+   
+}
+/* fsevdo elementebi */
+
+p::first-line {
+ color: rgb(30, 0, 255);
+}
+h1::first-letter {
+    font-size: 25px;
+    color: rgb(4, 255, 0);
+}
+.h2::before {
+    content: url(../images/image2.png);
+    width:20px;
+    height: 20px;
+}
+.h2::after {
+    content: '\2614';
+    
+}
+
+h3::selection {
+    color: green;
+    background-color: yellow;
+}
+.s2 {
+    background-color: rgb(255, 255, 255);
+}
+div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; 
+}
+ li {
+    margin: 50px;
+ }
